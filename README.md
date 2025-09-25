@@ -12,8 +12,9 @@ pip install opencv-python fer mtcnn
 pip install ultralytics opencv-python
 ```
 
-## Skeleton detection using mediapipe
+## Skeleton detection and Rainbow draw using mediapipe
 
 ```
 pip install -q mediapipe
 ```
+

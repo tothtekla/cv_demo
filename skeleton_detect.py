@@ -28,7 +28,7 @@ def draw_landmarks_on_image(rgb_image, detection_result):
 
 
 # STEP 1: Initialize, Create an PoseLandmarker object.
-base_options = python.BaseOptions(model_asset_path='pose_landmarker_heavy.task')
+base_options = python.BaseOptions(model_asset_path='data/pose_landmarker_heavy.task')
 options = vision.PoseLandmarkerOptions(
     base_options=base_options,
     output_segmentation_masks=True)
